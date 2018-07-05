@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My\tests\clicktripz\ClicktripzTest" file="/Users/macbook/automation/selenium-tests/tests/clicktripz/ClicktripzTest.php" tests="2" assertions="14" failures="0" errors="0" time="204.723830">
+    <testcase name="testHotelCitywide" class="My\tests\clicktripz\ClicktripzTest" file="/Users/macbook/automation/selenium-tests/tests/clicktripz/ClicktripzTest.php" line="29" assertions="7" time="77.307199">
+      <system-out>[2018-07-03 23:53:26]: [WebDriver] Loading URL "https://www.clicktripz.com/test.php"
+[2018-07-03 23:53:26]: [WebDriver] Executing command "get" with params {"url":"https://www.clicktripz.com/test.php"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-1"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "clearElement" with params {":id":"0.1930282464191273-1"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["Chico"],":id":"0.1930282464191273-1"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"date1"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "clearElement" with params {":id":"0.1930282464191273-2"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"date1"}
+[2018-07-03 23:53:27]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["07/06/2018"],":id":"0.1930282464191273-2"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"date2"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "clearElement" with params {":id":"0.1930282464191273-3"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@class=\" ui-datepicker-week-end \"]/*[text()= \"8\"]"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-4"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@class=\" ui-datepicker-week-end \"]/*[text()= \"8\"]"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-4"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@class=\" ui-datepicker-week-end \"]/*[text()= \"8\"]"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-4"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@class=\" ui-datepicker-week-end \"]/*[text()= \"8\"]"}
+[2018-07-03 23:53:28]: [WebDriver] Executing command "clickElement" with params {":id":"0.1930282464191273-4"}
+[2018-07-03 23:53:29]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[contains(@style, 'display: block')]"}
+[2018-07-03 23:53:29]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-5"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[contains(@style, 'display: block')]"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"guests"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-6"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"guests"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "clickElement" with params {":id":"0.1930282464191273-6"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"select[id=\"guests\"] option[value=\"2\"]"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "clickElement" with params {":id":"0.1930282464191273-7"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:30]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:31]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:32]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:33]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:34]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ctAnchor"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.1930282464191273-8"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"button#search-button.btn.btn-primary"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "clickElement" with params {":id":"0.1930282464191273-9"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "setWindowSize" with params {"width":0,"height":-1000,":windowHandle":"current"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:53:35]: [WebDriver] Executing command "getCurrentWindowHandle" with params []
+[2018-07-03 23:53:35]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:53:35]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:37]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:38]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:39]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:40]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:59]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6523946483612049-1"}
+[2018-07-03 23:53:59]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:59]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6523946483612049-1"}
+[2018-07-03 23:53:59]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:53:59]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:53:59]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-1"}
+[2018-07-03 23:54:00]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:00]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//div[@class= 'search-data']/*/span"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "getElementText" with params {":id":"0.6523946483612049-2"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "getCurrentUrl" with params []
+[2018-07-03 23:54:01]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@id=\"ct-header\"]/ul"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "getElementAttribute" with params {":name":"data-tab-count",":id":"0.6523946483612049-3"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:01]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='1'])[1]"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-4"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:01]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='1']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:01]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='2'])[1]"}
+[2018-07-03 23:54:01]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-5"}
+[2018-07-03 23:54:02]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:03]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='2']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:03]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:03]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:03]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='3'])[1]"}
+[2018-07-03 23:54:03]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-6"}
+[2018-07-03 23:54:04]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:05]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='3']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:05]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:05]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:05]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='4'])[1]"}
+[2018-07-03 23:54:05]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-7"}
+[2018-07-03 23:54:05]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:06]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='4']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:06]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:06]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-50C0A320DA92AC25538EA8C7BCA476A4"}
+[2018-07-03 23:54:06]: [WebDriver] Executing command "getCurrentUrl" with params []
+[2018-07-03 23:54:06]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:07]: [WebDriver] Executing command "close" with params []
+[2018-07-03 23:54:07]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:07]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:07]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='5'])[1]"}
+[2018-07-03 23:54:08]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-9"}
+[2018-07-03 23:54:08]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:29]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='5']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:29]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:29]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:29]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='6'])[1]"}
+[2018-07-03 23:54:29]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-10"}
+[2018-07-03 23:54:30]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:31]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='6']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:31]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:31]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-C15B63AB505F39579A90CDC9C348AB85"}
+[2018-07-03 23:54:31]: [WebDriver] Executing command "getCurrentUrl" with params []
+[2018-07-03 23:54:31]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:31]: [WebDriver] Executing command "close" with params []
+[2018-07-03 23:54:32]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:32]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-EF895D03CB0A4EC2CDA9FE38A52408F0"}
+[2018-07-03 23:54:32]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='7'])[1]"}
+[2018-07-03 23:54:33]: [WebDriver] Executing command "clickElement" with params {":id":"0.6523946483612049-12"}
+[2018-07-03 23:54:40]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:54:43]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='7']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:54:43]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//li[contains(@class, 'visited')]"}
+[2018-07-03 23:54:43]: [WebDriver] Executing command "quit" with params []
+[2018-07-03 23:54:43]: Destroying "chrome" WebDriver for "My\tests\clicktripz\ClicktripzTest::testHotelCitywide" (session f617049d49984385bf95a317ef8e1c73)
+[2018-07-03 23:54:43]: [WebDriver] Executing command "close" with params []
+[2018-07-03 23:54:43]: [WebDriver] Executing command "quit" with params []
+</system-out>
+    </testcase>
+    <testcase name="testFlights" class="My\tests\clicktripz\ClicktripzTest" file="/Users/macbook/automation/selenium-tests/tests/clicktripz/ClicktripzTest.php" line="117" assertions="7" time="127.416631">
+      <system-out>[2018-07-03 23:54:45]: [WebDriver] Loading URL "https://www.clicktripz.com/test.php"
+[2018-07-03 23:54:45]: [WebDriver] Executing command "get" with params {"url":"https://www.clicktripz.com/test.php"}
+[2018-07-03 23:54:45]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a[href='/test_flights.php']"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.9274808982957397-1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a[href='/test_flights.php']"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "clickElement" with params {":id":"0.9274808982957397-1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "clearElement" with params {":id":"0.6709914446084364-1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["Sacramento"],":id":"0.6709914446084364-1"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"city2"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "clearElement" with params {":id":"0.6709914446084364-2"}
+[2018-07-03 23:54:46]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["Denver"],":id":"0.6709914446084364-2"}
+[2018-07-03 23:54:47]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"date1"}
+[2018-07-03 23:54:47]: [WebDriver] Executing command "clearElement" with params {":id":"0.6709914446084364-3"}
+[2018-07-03 23:54:47]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["07/06/2018"],":id":"0.6709914446084364-3"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"date2"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "clearElement" with params {":id":"0.6709914446084364-4"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "sendKeysToElement" with params {"value":["07/08/2018"],":id":"0.6709914446084364-4"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"travelers"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-5"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"travelers"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "clickElement" with params {":id":"0.6709914446084364-5"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"select[id=\"travelers\"] option[value=\"2\"]"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "clickElement" with params {":id":"0.6709914446084364-6"}
+[2018-07-03 23:54:48]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:49]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:51]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"ct-anchor"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.6709914446084364-7"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "findElement" with params {"using":"id","value":"search-button"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "clickElement" with params {":id":"0.6709914446084364-8"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "setWindowSize" with params {"width":0,"height":-1000,":windowHandle":"current"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:54:52]: [WebDriver] Executing command "getCurrentWindowHandle" with params []
+[2018-07-03 23:54:52]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:54:52]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:04]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:05]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:06]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:07]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:08]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:09]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:10]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:11]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"p.close-button"}
+[2018-07-03 23:55:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.9196066776498135-1"}
+[2018-07-03 23:55:50]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:55:50]: [WebDriver] Executing command "isElementDisplayed" with params {":id":"0.9196066776498135-2"}
+[2018-07-03 23:55:50]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:51]: [WebDriver] Executing command "findElement" with params {"using":"css selector","value":"a.button.close-modal"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-2"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:51]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//div[@class= 'search-data']/*/span"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "getElementText" with params {":id":"0.9196066776498135-3"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "getCurrentUrl" with params []
+[2018-07-03 23:55:51]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"//*[@id=\"ct-header\"]/ul"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "getElementAttribute" with params {":name":"data-tab-count",":id":"0.9196066776498135-4"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:51]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='1'])[1]"}
+[2018-07-03 23:55:51]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-5"}
+[2018-07-03 23:55:52]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:52]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='1']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:55:52]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:52]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:55:52]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='2'])[1]"}
+[2018-07-03 23:55:52]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-6"}
+[2018-07-03 23:55:52]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:53]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='2']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:55:53]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:53]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:55:53]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='3'])[1]"}
+[2018-07-03 23:55:53]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-7"}
+[2018-07-03 23:55:55]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:56]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='3']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:55:56]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:56]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:55:56]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='4'])[1]"}
+[2018-07-03 23:55:56]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-8"}
+[2018-07-03 23:55:57]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:57]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='4']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:55:57]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:57]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-AA3EFE7BA5A0AB850F39AEE7A440E86E"}
+[2018-07-03 23:55:57]: [WebDriver] Executing command "getCurrentUrl" with params []
+[2018-07-03 23:55:58]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:55:58]: [WebDriver] Executing command "close" with params []
+[2018-07-03 23:55:58]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:55:58]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:55:58]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='5'])[1]"}
+[2018-07-03 23:55:58]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-10"}
+[2018-07-03 23:55:58]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:56:21]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='5']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:56:21]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:56:21]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:56:21]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='6'])[1]"}
+[2018-07-03 23:56:21]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-11"}
+[2018-07-03 23:56:39]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:56:39]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='6']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:56:40]: [WebDriver] Executing command "getWindowHandles" with params []
+[2018-07-03 23:56:40]: [WebDriver] Executing command "switchToWindow" with params {"name":"CDwindow-979EC2564C99F77C19481EF61FFD168C"}
+[2018-07-03 23:56:40]: [WebDriver] Executing command "findElement" with params {"using":"xpath","value":"(//a[@data-tab-position='7'])[1]"}
+[2018-07-03 23:56:40]: [WebDriver] Executing command "clickElement" with params {":id":"0.9196066776498135-12"}
+[2018-07-03 23:56:49]: [WebDriver] Executing command "screenshot" with params []
+[2018-07-03 23:56:52]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//*[@data-tab-position='7']/a[contains(text(), 'View Now')]"}
+[2018-07-03 23:56:52]: [WebDriver] Executing command "findElements" with params {"using":"xpath","value":"//li[contains(@class, 'visited')]"}
+[2018-07-03 23:56:52]: [WebDriver] Executing command "quit" with params []
+[2018-07-03 23:56:52]: Destroying "chrome" WebDriver for "My\tests\clicktripz\ClicktripzTest::testFlights" (session cd75880699fb239211f1691d405538ac)
+[2018-07-03 23:56:52]: [WebDriver] Executing command "close" with params []
+[2018-07-03 23:56:52]: [WebDriver] Executing command "quit" with params []
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
