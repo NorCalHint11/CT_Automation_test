@@ -1,9 +1,7 @@
 --Framework choice--
-I have to chose to use php-webdriver to completed the below automation tests. I have decided to use a set of libraries,
-steward. The details can be found at the following link:  https://github.com/lmc-eu/steward
-It uses both php-webdriver and php-unit to complete the tests
-This has great features for reporting test results and shortening some of the longer complex items. It also has great
-integration with systems such as Jenkins.
+I have made the choice to use php-webdriver to execute the automation tests. I have also decided to use a set of libraries called Steward, which utilizes facebook/webdriver. The details can be found at the following link:  https://github.com/lmc-eu/steward
+It uses both php-webdriver and php-unit to execute the tests.
+This has great features for reporting test results, shortened wait/find element commands and easy integration with systems such as Jenkins.
 
 --Test Execution--
 To execute these automation test runs the following command has to be run within the directory.
@@ -11,26 +9,21 @@ To execute these automation test runs the following command has to be run within
     $ /vendor/bin/steward run test chrome  --group ClickTripz  -vvv
 
 --Results--
-Currently, a "result.xml" file is located in the "logs' directory. This file can be opened in any browser to see quick
-test results. This has been used in the past to quickly send the file to upper management to see results, without long
-details. Screen captures and URL capture files are located in the "Logs" directory as well for review.
+Currently, a "result.xml" file is located in the "logs" directory. This file can be opened in any browser to see quick and clean test results. This has been used in the past to quickly send the file to upper management to review results, without lengthy details. Screen and URL capture files are located in the "Logs" directory as well.
 
 --Docker--
-The docker file is also located with in this framework. You will see it is setup for chrome and firefox. The current
-command to use the docker on chrome is the following:
+The docker file is also located within this framework. You will see it can be used by chrome or firefox. The current command to use the docker on chrome is the following:
 
     $ docker run -p 4444:4444  selenium/standalone-chrome-debug
 
-if you need to see it run on a VNC, you can use the following:
+If you need to see it run on a VNC, you can use the following:
 
     $ docker run -p 4444:4444 -p 5900:5900  selenium/standalone-chrome-debug
 
--- Possibly bug found --
-Also, would like to mention a possible bug found.
-On chrome(version 67.0.3396.99), both of these tests have an issue after clicking the "Search" button. The second
-window "Exit Unit window" does not completely load until you click on the Parent "Search" window once again. This very
+-- Possible bug found --
+Also, would like to mention a possible bug.
+On Chrome(version 67.0.3396.99), both of the tests have an issue after clicking the "Search" button. The second window "Exit Unit" does not completely load until you click on the Parent "Search" window once again. This very
 well could be an issue with chrome. I am able to replicate manually as well.
-
 
 
 
