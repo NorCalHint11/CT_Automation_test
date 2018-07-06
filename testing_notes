@@ -1,5 +1,6 @@
 --Framework choice--
-I have made the choice to use php-webdriver to execute the automation tests. I have also decided to use a set of libraries called Steward, which utilizes facebook/webdriver. The details can be found at the following link:  https://github.com/lmc-eu/steward
+I have made the choice to use php-webdriver to execute the automation tests. I have also decided to use a set of libraries
+called Steward, which utilizes facebook/webdriver. The details can be found at the following link:  https://github.com/lmc-eu/steward
 It uses both php-webdriver and php-unit to execute the tests.
 This has great features for reporting test results, shortened wait/find element commands and easy integration with systems such as Jenkins.
 
@@ -9,10 +10,13 @@ To execute these automation test runs the following command has to be run within
     $ /vendor/bin/steward run test chrome  --group ClickTripz  -vvv
 
 --Results--
-Currently, a "result.xml" file is located in the "logs" directory. This file can be opened in any browser to see quick and clean test results. This has been used in the past to quickly send the file to upper management to review results, without lengthy details. Screen and URL capture files are located in the "Logs" directory as well.
+Currently, a "result.xml" file is located in the "logs" directory. This file can be opened in any browser to see quick and
+clean test results. This has been used in the past to quickly send the file to upper management to review results, without
+lengthy details. Screen and URL capture files are located in the "Logs" directory as well.
 
 --Docker--
-The docker file is also located within this framework. You will see it can be used by chrome or firefox. The current command to use the docker on chrome is the following:
+The docker file is also located within this framework. You will see it can be used by chrome or firefox. The current command
+to use the docker on chrome is the following:
 
     $ docker run -p 4444:4444  selenium/standalone-chrome-debug
 
@@ -22,7 +26,8 @@ If you need to see it run on a VNC, you can use the following:
 
 -- Possible bug found --
 Also, would like to mention a possible bug.
-On Chrome(version 67.0.3396.99), both of the tests have an issue after clicking the "Search" button. The second window "Exit Unit" does not completely load until you click on the Parent "Search" window once again. This very
+On Chrome(version 67.0.3396.99), both of the tests have an issue after clicking the "Search" button. The second window "Exit Unit" does
+not completely load until you click on the Parent "Search" window once again. This very
 well could be an issue with chrome. I am able to replicate manually as well.
 
 
