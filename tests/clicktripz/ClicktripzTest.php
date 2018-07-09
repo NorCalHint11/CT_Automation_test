@@ -30,8 +30,8 @@ class ClicktripzTest extends AbstractTestCase
     {
         $screen_capture_loc = 'logs/screen_captures/hotel_citywide/';
         $city_name = 'Chico';
-        $check_in_date = '07/06/2018';
-        $check_out_date = '07/08/2018';
+        $check_in_date = '07/13/2018';
+        $check_out_date = '07/15/2018';
 
         // waits for city input box to be displayed
         $this->waitForId('city',true);
@@ -46,8 +46,8 @@ class ClicktripzTest extends AbstractTestCase
 
         // clears and inputs Check-Out date
         $this->findById('date2')->clear();
-        $this->waitForXpath('//*[@class=" ui-datepicker-week-end "]/*[text()= "8"]',true);
-        $this->findByXpath('//*[@class=" ui-datepicker-week-end "]/*[text()= "8"]')->click();
+        $this->waitForXpath('//*[@class=" ui-datepicker-week-end "]/*[text()= "15"]',true);
+        $this->findByXpath('//*[@class=" ui-datepicker-week-end "]/*[text()= "15"]')->click();
 
         // wait for date picker to close
         $this->wd->wait(10, 1000)->
@@ -119,8 +119,8 @@ class ClicktripzTest extends AbstractTestCase
         $screen_capture_loc = 'logs/screen_captures/flights/';
         $city_from = 'Sacramento';
         $city_to = 'Denver';
-        $departing_date = '07/06/2018';
-        $returning_date = '07/08/2018';
+        $departing_date = '07/13/2018';
+        $returning_date = '07/15/2018';
 
         // waits for flight tab to be displayed
         $this->waitForCss("a[href='/test_flights.php']",true);

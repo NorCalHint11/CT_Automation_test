@@ -4,25 +4,32 @@ called Steward, which utilizes facebook/webdriver. The details can be found at t
 It uses both php-webdriver and php-unit to execute the tests.
 This has great features for reporting test results, shortened wait/find element commands and easy integration with systems such as Jenkins.
 
---Test Execution--
-To execute these automation test runs the following command has to be run within the directory.
+--Local Test Execution--
+To execute these automation test runs locally the following steps have to be ran within the directory.
 
-    $ /vendor/bin/steward run test chrome  --group ClickTripz  -vvv
+    1)open a cmd window within the directory and run the following command to start the selenium server:
+        "java -jar vendor/bin/selenium-server-standalone-3.8.1.jar"
+
+    2) open a second cmd window within the directory. Run the following command to execute the tests:
+        "./vendor/bin/steward run test chrome  --group ClickTripz  -vvv"
+
+
+--Docker Test Execution--
+The docker file is also located within this framework. You will see it can be used by chrome or firefox. The current command
+to use the docker on chrome is the following:
+
+    1)open a cmd window within the directory and run the following command to start the selenium server:
+        "docker run -p 4444:4444 -p 5900:5900  selenium/standalone-chrome-debug"
+
+    2) open a second cmd window within the directory. Run the following command to execute the tests:
+        "./vendor/bin/steward run test chrome  --group ClickTripz  -vvv"
+
 
 --Results--
 Currently, a "result.xml" file is located in the "logs" directory. This file can be opened in any browser to see quick and
 clean test results. This has been used in the past to quickly send the file to upper management to review results, without
 lengthy details. Screen and URL capture files are located in the "Logs" directory as well.
 
---Docker--
-The docker file is also located within this framework. You will see it can be used by chrome or firefox. The current command
-to use the docker on chrome is the following:
-
-    $ docker run -p 4444:4444  selenium/standalone-chrome-debug
-
-If you need to see it run on a VNC, you can use the following:
-
-    $ docker run -p 4444:4444 -p 5900:5900  selenium/standalone-chrome-debug
 
 -- Possible bug found --
 Also, would like to mention a possible bug.
